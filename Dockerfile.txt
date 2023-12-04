@@ -1,0 +1,5 @@
+FROM openjdk
+WORKDIR /application
+COPY afnan.java .
+RUN javac afnan.java
+CMD  java afnan 
