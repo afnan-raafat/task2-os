@@ -4,21 +4,16 @@ on:
      -master
 
 
-
-
-
-
-
 jobs:
   build:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-   steps:
+    steps:
      - name: 'testing github-action'
        run: pwd
 
-      - name: 'Testing printing'
-        run: eco "Hallo afnoon"
+     - name: 'Testing printing'
+       run: eco "Hallo afnoon"
          
 
 
